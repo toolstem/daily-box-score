@@ -13,7 +13,7 @@
     padding: 0;
   }
   .page {
-    max-width: 640px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 24px 20px 60px;
   }
@@ -37,6 +37,7 @@
     letter-spacing: 1px;
     font-weight: 700;
   }
+  .nameplate h1 a { color: #111; text-decoration: none; }
   .nameplate .tagline {
     font-style: italic;
     font-size: 15px;
@@ -83,6 +84,36 @@
     background: #111;
     color: #fff;
   }
+  table.scores {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  table.scores td {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 8px 7px 0;
+  }
+  table.scores td.score { font-weight: 700; white-space: nowrap; }
+  table.scores td.link { text-align: right; white-space: nowrap; }
+  table.scores a { color: #111; font-size: 13px; }
+  .months {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .months a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 14px 10px;
+    text-align: center;
+  }
+  .months a:hover { background: #111; color: #fff; }
+  .months a:hover .count { color: #ddd; }
+  .months .mname { font-weight: 700; font-size: 16px; }
+  .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
   table.archive {
     width: 100%;
     border-collapse: collapse;
@@ -101,9 +132,12 @@
     padding: 9px 8px 9px 0;
     vertical-align: top;
   }
-  table.archive a {
-    color: #111;
-  }
+  table.archive a { color: #111; }
+  .teams { font-size: 13px; color: #444; }
+  .filterrow { margin: 0 0 14px; font-size: 15px; }
+  .filterrow select { font-family: inherit; font-size: 15px; padding: 4px 8px; }
+  .backlink { font-size: 14px; margin-bottom: 8px; }
+  .backlink a { color: #111; }
   .footer {
     margin-top: 44px;
     border-top: 4px double #111;
@@ -120,7 +154,7 @@
 </head>
 <body>
 <div class="page">
-  <div class="dateline">Updated every morning &bull; Thursday, October 1, 2026</div>
+  <div class="dateline">Every morning &bull; Thursday, October 1, 2026</div>
   <div class="nameplate">
     <h1>The Daily Box Score</h1>
     <div class="tagline">Complete Major League box scores, in the classic agate style.</div>
@@ -129,23 +163,32 @@
   <h2 class="section">Latest Edition</h2>
   <div class="latest">
     <p class="ed-date">Wednesday, September 30, 2026</p>
-    <p class="ed-meta">4 games &bull; 19 KB PDF</p>
+    <p class="ed-meta">4 games &bull; 20 KB PDF</p>
     <a class="btn" href="pdfs/boxscores_2026-09-30.pdf">Read the Box Scores</a>
   </div>
 
-  <h2 class="section">Past Editions</h2>
-  <table class="archive">
-    <tr><th>Date</th><th>Games</th><th>Edition</th></tr>
-        <tr><td>Wednesday, September 30, 2026</td><td>4</td><td><a href="pdfs/boxscores_2026-09-30.pdf">PDF (19 KB)</a></td></tr>
-    <tr><td>Tuesday, September 29, 2026</td><td>4</td><td><a href="pdfs/boxscores_2026-09-29.pdf">PDF (19 KB)</a></td></tr>
-    <tr><td>Sunday, September 27, 2026</td><td>14</td><td><a href="pdfs/boxscores_2026-09-27.pdf">PDF (61 KB)</a></td></tr>
-    <tr><td>Saturday, September 26, 2026</td><td>13</td><td><a href="pdfs/boxscores_2026-09-26.pdf">PDF (59 KB)</a></td></tr>
-    <tr><td>Friday, September 25, 2026</td><td>17</td><td><a href="pdfs/boxscores_2026-09-25.pdf">PDF (71 KB)</a></td></tr>
-    <tr><td>Thursday, September 24, 2026</td><td>12</td><td><a href="pdfs/boxscores_2026-09-24.pdf">PDF (52 KB)</a></td></tr>
+  <h2 class="section">Yesterday&rsquo;s Scores</h2>
+  <table class="scores">
+    <tr><td class="score">PHI 4, ATL 3</td><td class="link"><a href="pdfs/boxscores_2026-09-30.pdf">box score</a></td></tr>
+    <tr><td class="score">SD 4, CHC 1</td><td class="link"><a href="pdfs/boxscores_2026-09-30.pdf">box score</a></td></tr>
+    <tr><td class="score">CWS 7, HOU 3</td><td class="link"><a href="pdfs/boxscores_2026-09-30.pdf">box score</a></td></tr>
+    <tr><td class="score">NYY 9, BOS 2</td><td class="link"><a href="pdfs/boxscores_2026-09-30.pdf">box score</a></td></tr>
   </table>
 
+  <h2 class="section">Browse the Archive</h2>
+  <div class="months">
+    <a href="archive/2026-09.html"><span class="mname">September 2026</span><br><span class="count">29 editions</span></a>
+    <a href="archive/2026-08.html"><span class="mname">August 2026</span><br><span class="count">31 editions</span></a>
+    <a href="archive/2026-07.html"><span class="mname">July 2026</span><br><span class="count">29 editions</span></a>
+    <a href="archive/2026-06.html"><span class="mname">June 2026</span><br><span class="count">30 editions</span></a>
+    <a href="archive/2026-05.html"><span class="mname">May 2026</span><br><span class="count">31 editions</span></a>
+    <a href="archive/2026-04.html"><span class="mname">April 2026</span><br><span class="count">30 editions</span></a>
+    <a href="archive/2026-03.html"><span class="mname">March 2026</span><br><span class="count">6 editions</span></a>
+  </div>
+
   <div class="footer">
-    Box scores compiled from the official MLB Stats API. Never invented; missing data stays blank.<br>
+    Every edition of the 2026 season, each a complete newspaper-style box score sheet.<br>
+    Compiled from the official MLB Stats API. Never invented; missing data stays blank.<br>
     Set in the manner of the American sports page, circa 1960&ndash;1990.
   </div>
 </div>

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T12:15:02",
+ "updated": "2026-10-01T18:37:20",
  "editions": [
   {
    "date": "2026-09-30",
@@ -7,7 +7,7 @@
    "games": 4,
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-30.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-30.json",
-   "size": 19935
+   "size": 20270
   },
   {
    "date": "2026-09-29",
@@ -15,7 +15,7 @@
    "games": 4,
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-29.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-29.json",
-   "size": 19738
+   "size": 19870
   },
   {
    "date": "2026-09-27",
@@ -23,7 +23,7 @@
    "games": 14,
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-27.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-27.json",
-   "size": 62324
+   "size": 58917
   },
   {
    "date": "2026-09-26",
@@ -31,7 +31,7 @@
    "games": 13,
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-26.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-26.json",
-   "size": 60269
+   "size": 57907
   },
   {
    "date": "2026-09-25",
@@ -39,7 +39,7 @@
    "games": 17,
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-25.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-25.json",
-   "size": 72899
+   "size": 68172
   },
   {
    "date": "2026-09-24",
@@ -47,7 +47,1447 @@
    "games": 12,
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-24.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-24.json",
-   "size": 53408
+   "size": 51506
+  },
+  {
+   "date": "2026-09-23",
+   "label": "Wednesday, September 23, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-23.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-23.json",
+   "size": 67779
+  },
+  {
+   "date": "2026-09-22",
+   "label": "Tuesday, September 22, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-22.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-22.json",
+   "size": 62987
+  },
+  {
+   "date": "2026-09-21",
+   "label": "Monday, September 21, 2026",
+   "games": 3,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-21.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-21.json",
+   "size": 15489
+  },
+  {
+   "date": "2026-09-20",
+   "label": "Sunday, September 20, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-20.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-20.json",
+   "size": 61963
+  },
+  {
+   "date": "2026-09-19",
+   "label": "Saturday, September 19, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-19.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-19.json",
+   "size": 65726
+  },
+  {
+   "date": "2026-09-18",
+   "label": "Friday, September 18, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-18.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-18.json",
+   "size": 64640
+  },
+  {
+   "date": "2026-09-17",
+   "label": "Thursday, September 17, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-17.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-17.json",
+   "size": 39769
+  },
+  {
+   "date": "2026-09-16",
+   "label": "Wednesday, September 16, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-16.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-16.json",
+   "size": 64944
+  },
+  {
+   "date": "2026-09-15",
+   "label": "Tuesday, September 15, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-15.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-15.json",
+   "size": 64102
+  },
+  {
+   "date": "2026-09-14",
+   "label": "Monday, September 14, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-14.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-14.json",
+   "size": 43310
+  },
+  {
+   "date": "2026-09-13",
+   "label": "Sunday, September 13, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-13.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-13.json",
+   "size": 63639
+  },
+  {
+   "date": "2026-09-12",
+   "label": "Saturday, September 12, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-12.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-12.json",
+   "size": 66728
+  },
+  {
+   "date": "2026-09-11",
+   "label": "Friday, September 11, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-11.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-11.json",
+   "size": 65738
+  },
+  {
+   "date": "2026-09-10",
+   "label": "Thursday, September 10, 2026",
+   "games": 5,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-10.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-10.json",
+   "size": 22306
+  },
+  {
+   "date": "2026-09-09",
+   "label": "Wednesday, September 9, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-09.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-09.json",
+   "size": 64467
+  },
+  {
+   "date": "2026-09-08",
+   "label": "Tuesday, September 8, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-08.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-08.json",
+   "size": 64518
+  },
+  {
+   "date": "2026-09-07",
+   "label": "Monday, September 7, 2026",
+   "games": 11,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-07.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-07.json",
+   "size": 46268
+  },
+  {
+   "date": "2026-09-06",
+   "label": "Sunday, September 6, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-06.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-06.json",
+   "size": 64780
+  },
+  {
+   "date": "2026-09-05",
+   "label": "Saturday, September 5, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-05.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-05.json",
+   "size": 63923
+  },
+  {
+   "date": "2026-09-04",
+   "label": "Friday, September 4, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-04.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-04.json",
+   "size": 66958
+  },
+  {
+   "date": "2026-09-03",
+   "label": "Thursday, September 3, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-03.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-03.json",
+   "size": 39242
+  },
+  {
+   "date": "2026-09-02",
+   "label": "Wednesday, September 2, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-02.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-02.json",
+   "size": 66842
+  },
+  {
+   "date": "2026-09-01",
+   "label": "Tuesday, September 1, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-09-01.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-09-01.json",
+   "size": 65193
+  },
+  {
+   "date": "2026-08-31",
+   "label": "Monday, August 31, 2026",
+   "games": 12,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-31.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-31.json",
+   "size": 51051
+  },
+  {
+   "date": "2026-08-30",
+   "label": "Sunday, August 30, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-30.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-30.json",
+   "size": 58280
+  },
+  {
+   "date": "2026-08-29",
+   "label": "Saturday, August 29, 2026",
+   "games": 17,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-29.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-29.json",
+   "size": 70146
+  },
+  {
+   "date": "2026-08-28",
+   "label": "Friday, August 28, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-28.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-28.json",
+   "size": 61872
+  },
+  {
+   "date": "2026-08-27",
+   "label": "Thursday, August 27, 2026",
+   "games": 7,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-27.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-27.json",
+   "size": 29963
+  },
+  {
+   "date": "2026-08-26",
+   "label": "Wednesday, August 26, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-26.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-26.json",
+   "size": 62584
+  },
+  {
+   "date": "2026-08-25",
+   "label": "Tuesday, August 25, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-25.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-25.json",
+   "size": 63516
+  },
+  {
+   "date": "2026-08-24",
+   "label": "Monday, August 24, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-24.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-24.json",
+   "size": 43079
+  },
+  {
+   "date": "2026-08-23",
+   "label": "Sunday, August 23, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-23.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-23.json",
+   "size": 63797
+  },
+  {
+   "date": "2026-08-22",
+   "label": "Saturday, August 22, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-22.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-22.json",
+   "size": 60201
+  },
+  {
+   "date": "2026-08-21",
+   "label": "Friday, August 21, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-21.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-21.json",
+   "size": 62795
+  },
+  {
+   "date": "2026-08-20",
+   "label": "Thursday, August 20, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-20.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-20.json",
+   "size": 38410
+  },
+  {
+   "date": "2026-08-19",
+   "label": "Wednesday, August 19, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-19.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-19.json",
+   "size": 64105
+  },
+  {
+   "date": "2026-08-18",
+   "label": "Tuesday, August 18, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-18.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-18.json",
+   "size": 62149
+  },
+  {
+   "date": "2026-08-17",
+   "label": "Monday, August 17, 2026",
+   "games": 11,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-17.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-17.json",
+   "size": 48000
+  },
+  {
+   "date": "2026-08-16",
+   "label": "Sunday, August 16, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-16.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-16.json",
+   "size": 62705
+  },
+  {
+   "date": "2026-08-15",
+   "label": "Saturday, August 15, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-15.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-15.json",
+   "size": 61888
+  },
+  {
+   "date": "2026-08-14",
+   "label": "Friday, August 14, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-14.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-14.json",
+   "size": 57860
+  },
+  {
+   "date": "2026-08-13",
+   "label": "Thursday, August 13, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-13.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-13.json",
+   "size": 37923
+  },
+  {
+   "date": "2026-08-12",
+   "label": "Wednesday, August 12, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-12.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-12.json",
+   "size": 64242
+  },
+  {
+   "date": "2026-08-11",
+   "label": "Tuesday, August 11, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-11.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-11.json",
+   "size": 61253
+  },
+  {
+   "date": "2026-08-10",
+   "label": "Monday, August 10, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-10.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-10.json",
+   "size": 43079
+  },
+  {
+   "date": "2026-08-09",
+   "label": "Sunday, August 9, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-09.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-09.json",
+   "size": 63995
+  },
+  {
+   "date": "2026-08-08",
+   "label": "Saturday, August 8, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-08.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-08.json",
+   "size": 63594
+  },
+  {
+   "date": "2026-08-07",
+   "label": "Friday, August 7, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-07.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-07.json",
+   "size": 62738
+  },
+  {
+   "date": "2026-08-06",
+   "label": "Thursday, August 6, 2026",
+   "games": 11,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-06.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-06.json",
+   "size": 49582
+  },
+  {
+   "date": "2026-08-05",
+   "label": "Wednesday, August 5, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-05.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-05.json",
+   "size": 63577
+  },
+  {
+   "date": "2026-08-04",
+   "label": "Tuesday, August 4, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-04.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-04.json",
+   "size": 62233
+  },
+  {
+   "date": "2026-08-03",
+   "label": "Monday, August 3, 2026",
+   "games": 8,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-03.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-03.json",
+   "size": 33958
+  },
+  {
+   "date": "2026-08-02",
+   "label": "Sunday, August 2, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-02.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-02.json",
+   "size": 60935
+  },
+  {
+   "date": "2026-08-01",
+   "label": "Saturday, August 1, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-08-01.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-08-01.json",
+   "size": 62036
+  },
+  {
+   "date": "2026-07-31",
+   "label": "Friday, July 31, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-31.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-31.json",
+   "size": 61091
+  },
+  {
+   "date": "2026-07-30",
+   "label": "Thursday, July 30, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-30.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-30.json",
+   "size": 43338
+  },
+  {
+   "date": "2026-07-29",
+   "label": "Wednesday, July 29, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-29.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-29.json",
+   "size": 67321
+  },
+  {
+   "date": "2026-07-28",
+   "label": "Tuesday, July 28, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-28.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-28.json",
+   "size": 64423
+  },
+  {
+   "date": "2026-07-27",
+   "label": "Monday, July 27, 2026",
+   "games": 11,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-27.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-27.json",
+   "size": 47725
+  },
+  {
+   "date": "2026-07-26",
+   "label": "Sunday, July 26, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-26.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-26.json",
+   "size": 65767
+  },
+  {
+   "date": "2026-07-25",
+   "label": "Saturday, July 25, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-25.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-25.json",
+   "size": 58208
+  },
+  {
+   "date": "2026-07-24",
+   "label": "Friday, July 24, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-24.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-24.json",
+   "size": 63932
+  },
+  {
+   "date": "2026-07-23",
+   "label": "Thursday, July 23, 2026",
+   "games": 5,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-23.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-23.json",
+   "size": 22858
+  },
+  {
+   "date": "2026-07-22",
+   "label": "Wednesday, July 22, 2026",
+   "games": 17,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-22.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-22.json",
+   "size": 69516
+  },
+  {
+   "date": "2026-07-21",
+   "label": "Tuesday, July 21, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-21.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-21.json",
+   "size": 54026
+  },
+  {
+   "date": "2026-07-20",
+   "label": "Monday, July 20, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-20.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-20.json",
+   "size": 64551
+  },
+  {
+   "date": "2026-07-19",
+   "label": "Sunday, July 19, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-19.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-19.json",
+   "size": 65932
+  },
+  {
+   "date": "2026-07-18",
+   "label": "Saturday, July 18, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-18.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-18.json",
+   "size": 63308
+  },
+  {
+   "date": "2026-07-17",
+   "label": "Friday, July 17, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-17.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-17.json",
+   "size": 57747
+  },
+  {
+   "date": "2026-07-16",
+   "label": "Thursday, July 16, 2026",
+   "games": 1,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-16.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-16.json",
+   "size": 7225
+  },
+  {
+   "date": "2026-07-14",
+   "label": "Tuesday, July 14, 2026",
+   "games": 1,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-14.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-14.json",
+   "size": 8903
+  },
+  {
+   "date": "2026-07-12",
+   "label": "Sunday, July 12, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-12.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-12.json",
+   "size": 64267
+  },
+  {
+   "date": "2026-07-11",
+   "label": "Saturday, July 11, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-11.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-11.json",
+   "size": 64923
+  },
+  {
+   "date": "2026-07-10",
+   "label": "Friday, July 10, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-10.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-10.json",
+   "size": 58479
+  },
+  {
+   "date": "2026-07-09",
+   "label": "Thursday, July 9, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-09.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-09.json",
+   "size": 54206
+  },
+  {
+   "date": "2026-07-08",
+   "label": "Wednesday, July 8, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-08.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-08.json",
+   "size": 60901
+  },
+  {
+   "date": "2026-07-07",
+   "label": "Tuesday, July 7, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-07.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-07.json",
+   "size": 67064
+  },
+  {
+   "date": "2026-07-06",
+   "label": "Monday, July 6, 2026",
+   "games": 8,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-06.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-06.json",
+   "size": 33995
+  },
+  {
+   "date": "2026-07-05",
+   "label": "Sunday, July 5, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-05.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-05.json",
+   "size": 63901
+  },
+  {
+   "date": "2026-07-04",
+   "label": "Saturday, July 4, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-04.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-04.json",
+   "size": 61929
+  },
+  {
+   "date": "2026-07-03",
+   "label": "Friday, July 3, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-03.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-03.json",
+   "size": 54212
+  },
+  {
+   "date": "2026-07-02",
+   "label": "Thursday, July 2, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-02.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-02.json",
+   "size": 40612
+  },
+  {
+   "date": "2026-07-01",
+   "label": "Wednesday, July 1, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-07-01.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-07-01.json",
+   "size": 57494
+  },
+  {
+   "date": "2026-06-30",
+   "label": "Tuesday, June 30, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-30.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-30.json",
+   "size": 60521
+  },
+  {
+   "date": "2026-06-29",
+   "label": "Monday, June 29, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-29.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-29.json",
+   "size": 54098
+  },
+  {
+   "date": "2026-06-28",
+   "label": "Sunday, June 28, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-28.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-28.json",
+   "size": 64324
+  },
+  {
+   "date": "2026-06-27",
+   "label": "Saturday, June 27, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-27.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-27.json",
+   "size": 62277
+  },
+  {
+   "date": "2026-06-26",
+   "label": "Friday, June 26, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-26.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-26.json",
+   "size": 62704
+  },
+  {
+   "date": "2026-06-25",
+   "label": "Thursday, June 25, 2026",
+   "games": 8,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-25.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-25.json",
+   "size": 34674
+  },
+  {
+   "date": "2026-06-24",
+   "label": "Wednesday, June 24, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-24.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-24.json",
+   "size": 69030
+  },
+  {
+   "date": "2026-06-23",
+   "label": "Tuesday, June 23, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-23.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-23.json",
+   "size": 63018
+  },
+  {
+   "date": "2026-06-22",
+   "label": "Monday, June 22, 2026",
+   "games": 12,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-22.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-22.json",
+   "size": 49241
+  },
+  {
+   "date": "2026-06-21",
+   "label": "Sunday, June 21, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-21.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-21.json",
+   "size": 58527
+  },
+  {
+   "date": "2026-06-20",
+   "label": "Saturday, June 20, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-20.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-20.json",
+   "size": 58749
+  },
+  {
+   "date": "2026-06-19",
+   "label": "Friday, June 19, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-19.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-19.json",
+   "size": 59710
+  },
+  {
+   "date": "2026-06-18",
+   "label": "Thursday, June 18, 2026",
+   "games": 8,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-18.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-18.json",
+   "size": 34330
+  },
+  {
+   "date": "2026-06-17",
+   "label": "Wednesday, June 17, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-17.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-17.json",
+   "size": 62816
+  },
+  {
+   "date": "2026-06-16",
+   "label": "Tuesday, June 16, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-16.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-16.json",
+   "size": 61212
+  },
+  {
+   "date": "2026-06-15",
+   "label": "Monday, June 15, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-15.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-15.json",
+   "size": 41056
+  },
+  {
+   "date": "2026-06-14",
+   "label": "Sunday, June 14, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-14.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-14.json",
+   "size": 58617
+  },
+  {
+   "date": "2026-06-13",
+   "label": "Saturday, June 13, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-13.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-13.json",
+   "size": 63927
+  },
+  {
+   "date": "2026-06-12",
+   "label": "Friday, June 12, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-12.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-12.json",
+   "size": 61672
+  },
+  {
+   "date": "2026-06-11",
+   "label": "Thursday, June 11, 2026",
+   "games": 7,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-11.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-11.json",
+   "size": 30455
+  },
+  {
+   "date": "2026-06-10",
+   "label": "Wednesday, June 10, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-10.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-10.json",
+   "size": 63684
+  },
+  {
+   "date": "2026-06-09",
+   "label": "Tuesday, June 9, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-09.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-09.json",
+   "size": 65682
+  },
+  {
+   "date": "2026-06-08",
+   "label": "Monday, June 8, 2026",
+   "games": 8,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-08.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-08.json",
+   "size": 37203
+  },
+  {
+   "date": "2026-06-07",
+   "label": "Sunday, June 7, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-07.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-07.json",
+   "size": 63415
+  },
+  {
+   "date": "2026-06-06",
+   "label": "Saturday, June 6, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-06.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-06.json",
+   "size": 58287
+  },
+  {
+   "date": "2026-06-05",
+   "label": "Friday, June 5, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-05.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-05.json",
+   "size": 62607
+  },
+  {
+   "date": "2026-06-04",
+   "label": "Thursday, June 4, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-04.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-04.json",
+   "size": 40198
+  },
+  {
+   "date": "2026-06-03",
+   "label": "Wednesday, June 3, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-03.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-03.json",
+   "size": 62397
+  },
+  {
+   "date": "2026-06-02",
+   "label": "Tuesday, June 2, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-02.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-02.json",
+   "size": 62350
+  },
+  {
+   "date": "2026-06-01",
+   "label": "Monday, June 1, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-01.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-01.json",
+   "size": 39831
+  },
+  {
+   "date": "2026-05-31",
+   "label": "Sunday, May 31, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-31.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-31.json",
+   "size": 63214
+  },
+  {
+   "date": "2026-05-30",
+   "label": "Saturday, May 30, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-30.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-30.json",
+   "size": 62536
+  },
+  {
+   "date": "2026-05-29",
+   "label": "Friday, May 29, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-29.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-29.json",
+   "size": 65903
+  },
+  {
+   "date": "2026-05-28",
+   "label": "Thursday, May 28, 2026",
+   "games": 6,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-28.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-28.json",
+   "size": 27495
+  },
+  {
+   "date": "2026-05-27",
+   "label": "Wednesday, May 27, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-27.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-27.json",
+   "size": 60360
+  },
+  {
+   "date": "2026-05-26",
+   "label": "Tuesday, May 26, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-26.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-26.json",
+   "size": 63336
+  },
+  {
+   "date": "2026-05-25",
+   "label": "Monday, May 25, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-25.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-25.json",
+   "size": 52855
+  },
+  {
+   "date": "2026-05-24",
+   "label": "Sunday, May 24, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-24.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-24.json",
+   "size": 61433
+  },
+  {
+   "date": "2026-05-23",
+   "label": "Saturday, May 23, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-23.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-23.json",
+   "size": 54435
+  },
+  {
+   "date": "2026-05-22",
+   "label": "Friday, May 22, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-22.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-22.json",
+   "size": 58311
+  },
+  {
+   "date": "2026-05-21",
+   "label": "Thursday, May 21, 2026",
+   "games": 7,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-21.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-21.json",
+   "size": 30805
+  },
+  {
+   "date": "2026-05-20",
+   "label": "Wednesday, May 20, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-20.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-20.json",
+   "size": 62314
+  },
+  {
+   "date": "2026-05-19",
+   "label": "Tuesday, May 19, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-19.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-19.json",
+   "size": 64266
+  },
+  {
+   "date": "2026-05-18",
+   "label": "Monday, May 18, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-18.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-18.json",
+   "size": 59285
+  },
+  {
+   "date": "2026-05-17",
+   "label": "Sunday, May 17, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-17.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-17.json",
+   "size": 62024
+  },
+  {
+   "date": "2026-05-16",
+   "label": "Saturday, May 16, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-16.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-16.json",
+   "size": 62028
+  },
+  {
+   "date": "2026-05-15",
+   "label": "Friday, May 15, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-15.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-15.json",
+   "size": 62374
+  },
+  {
+   "date": "2026-05-14",
+   "label": "Thursday, May 14, 2026",
+   "games": 11,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-14.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-14.json",
+   "size": 44939
+  },
+  {
+   "date": "2026-05-13",
+   "label": "Wednesday, May 13, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-13.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-13.json",
+   "size": 63509
+  },
+  {
+   "date": "2026-05-12",
+   "label": "Tuesday, May 12, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-12.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-12.json",
+   "size": 62153
+  },
+  {
+   "date": "2026-05-11",
+   "label": "Monday, May 11, 2026",
+   "games": 6,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-11.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-11.json",
+   "size": 26696
+  },
+  {
+   "date": "2026-05-10",
+   "label": "Sunday, May 10, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-10.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-10.json",
+   "size": 61859
+  },
+  {
+   "date": "2026-05-09",
+   "label": "Saturday, May 9, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-09.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-09.json",
+   "size": 58627
+  },
+  {
+   "date": "2026-05-08",
+   "label": "Friday, May 8, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-08.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-08.json",
+   "size": 61326
+  },
+  {
+   "date": "2026-05-07",
+   "label": "Thursday, May 7, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-07.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-07.json",
+   "size": 43529
+  },
+  {
+   "date": "2026-05-06",
+   "label": "Wednesday, May 6, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-06.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-06.json",
+   "size": 61812
+  },
+  {
+   "date": "2026-05-05",
+   "label": "Tuesday, May 5, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-05.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-05.json",
+   "size": 53359
+  },
+  {
+   "date": "2026-05-04",
+   "label": "Monday, May 4, 2026",
+   "games": 12,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-04.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-04.json",
+   "size": 49496
+  },
+  {
+   "date": "2026-05-03",
+   "label": "Sunday, May 3, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-03.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-03.json",
+   "size": 62330
+  },
+  {
+   "date": "2026-05-02",
+   "label": "Saturday, May 2, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-02.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-02.json",
+   "size": 61600
+  },
+  {
+   "date": "2026-05-01",
+   "label": "Friday, May 1, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-05-01.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-05-01.json",
+   "size": 62155
+  },
+  {
+   "date": "2026-04-30",
+   "label": "Thursday, April 30, 2026",
+   "games": 11,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-30.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-30.json",
+   "size": 46818
+  },
+  {
+   "date": "2026-04-29",
+   "label": "Wednesday, April 29, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-29.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-29.json",
+   "size": 54757
+  },
+  {
+   "date": "2026-04-28",
+   "label": "Tuesday, April 28, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-28.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-28.json",
+   "size": 61089
+  },
+  {
+   "date": "2026-04-27",
+   "label": "Monday, April 27, 2026",
+   "games": 8,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-27.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-27.json",
+   "size": 34833
+  },
+  {
+   "date": "2026-04-26",
+   "label": "Sunday, April 26, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-26.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-26.json",
+   "size": 64952
+  },
+  {
+   "date": "2026-04-25",
+   "label": "Saturday, April 25, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-25.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-25.json",
+   "size": 61293
+  },
+  {
+   "date": "2026-04-24",
+   "label": "Friday, April 24, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-24.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-24.json",
+   "size": 57866
+  },
+  {
+   "date": "2026-04-23",
+   "label": "Thursday, April 23, 2026",
+   "games": 9,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-23.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-23.json",
+   "size": 39285
+  },
+  {
+   "date": "2026-04-22",
+   "label": "Wednesday, April 22, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-22.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-22.json",
+   "size": 61245
+  },
+  {
+   "date": "2026-04-21",
+   "label": "Tuesday, April 21, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-21.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-21.json",
+   "size": 63050
+  },
+  {
+   "date": "2026-04-20",
+   "label": "Monday, April 20, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-20.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-20.json",
+   "size": 43205
+  },
+  {
+   "date": "2026-04-19",
+   "label": "Sunday, April 19, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-19.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-19.json",
+   "size": 62860
+  },
+  {
+   "date": "2026-04-18",
+   "label": "Saturday, April 18, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-18.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-18.json",
+   "size": 63308
+  },
+  {
+   "date": "2026-04-17",
+   "label": "Friday, April 17, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-17.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-17.json",
+   "size": 61554
+  },
+  {
+   "date": "2026-04-16",
+   "label": "Thursday, April 16, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-16.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-16.json",
+   "size": 44443
+  },
+  {
+   "date": "2026-04-15",
+   "label": "Wednesday, April 15, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-15.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-15.json",
+   "size": 62463
+  },
+  {
+   "date": "2026-04-14",
+   "label": "Tuesday, April 14, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-14.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-14.json",
+   "size": 62891
+  },
+  {
+   "date": "2026-04-13",
+   "label": "Monday, April 13, 2026",
+   "games": 10,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-13.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-13.json",
+   "size": 41663
+  },
+  {
+   "date": "2026-04-12",
+   "label": "Sunday, April 12, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-12.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-12.json",
+   "size": 62804
+  },
+  {
+   "date": "2026-04-11",
+   "label": "Saturday, April 11, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-11.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-11.json",
+   "size": 62641
+  },
+  {
+   "date": "2026-04-10",
+   "label": "Friday, April 10, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-10.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-10.json",
+   "size": 60729
+  },
+  {
+   "date": "2026-04-09",
+   "label": "Thursday, April 9, 2026",
+   "games": 6,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-09.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-09.json",
+   "size": 26982
+  },
+  {
+   "date": "2026-04-08",
+   "label": "Wednesday, April 8, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-08.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-08.json",
+   "size": 60568
+  },
+  {
+   "date": "2026-04-07",
+   "label": "Tuesday, April 7, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-07.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-07.json",
+   "size": 62578
+  },
+  {
+   "date": "2026-04-06",
+   "label": "Monday, April 6, 2026",
+   "games": 13,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-06.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-06.json",
+   "size": 53244
+  },
+  {
+   "date": "2026-04-05",
+   "label": "Sunday, April 5, 2026",
+   "games": 16,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-05.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-05.json",
+   "size": 68663
+  },
+  {
+   "date": "2026-04-04",
+   "label": "Saturday, April 4, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-04.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-04.json",
+   "size": 62478
+  },
+  {
+   "date": "2026-04-03",
+   "label": "Friday, April 3, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-03.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-03.json",
+   "size": 57824
+  },
+  {
+   "date": "2026-04-02",
+   "label": "Thursday, April 2, 2026",
+   "games": 3,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-02.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-02.json",
+   "size": 15239
+  },
+  {
+   "date": "2026-04-01",
+   "label": "Wednesday, April 1, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-04-01.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-04-01.json",
+   "size": 62144
+  },
+  {
+   "date": "2026-03-31",
+   "label": "Tuesday, March 31, 2026",
+   "games": 14,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-31.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-31.json",
+   "size": 55123
+  },
+  {
+   "date": "2026-03-30",
+   "label": "Monday, March 30, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-30.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-30.json",
+   "size": 60526
+  },
+  {
+   "date": "2026-03-29",
+   "label": "Sunday, March 29, 2026",
+   "games": 12,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-29.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-29.json",
+   "size": 51359
+  },
+  {
+   "date": "2026-03-28",
+   "label": "Saturday, March 28, 2026",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-28.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-28.json",
+   "size": 66219
+  },
+  {
+   "date": "2026-03-27",
+   "label": "Friday, March 27, 2026",
+   "games": 8,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-27.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-27.json",
+   "size": 33069
+  },
+  {
+   "date": "2026-03-26",
+   "label": "Thursday, March 26, 2026",
+   "games": 11,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-26.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-26.json",
+   "size": 46685
   }
  ]
 }
