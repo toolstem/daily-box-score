@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>August 2004 &mdash; The Daily Box Score</title>
+<style>
+  body {
+    background: #fff;
+    color: #111;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+  .dateline {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #111;
+    padding-bottom: 8px;
+  }
+  .nameplate {
+    text-align: center;
+    border-bottom: 4px double #111;
+    padding: 18px 0 14px;
+    margin-bottom: 26px;
+  }
+  .nameplate h1 {
+    font-size: 44px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .nameplate h1 a { color: #111; text-decoration: none; }
+  .nameplate .tagline {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 6px;
+    color: #333;
+  }
+  h2.section {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 6px;
+    margin: 34px 0 14px;
+  }
+  .latest {
+    text-align: center;
+    border: 1px solid #111;
+    padding: 26px 18px;
+  }
+  .latest .ed-date {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .latest .ed-meta {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 18px;
+  }
+  .btn {
+    display: inline-block;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 28px;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    background: #111;
+    color: #fff;
+  }
+  table.scores {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  table.scores td {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 8px 7px 0;
+  }
+  table.scores td.score { font-weight: 700; white-space: nowrap; }
+  table.scores td.link { text-align: right; white-space: nowrap; }
+  table.scores a { color: #111; font-size: 13px; }
+  .months {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .months a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 14px 10px;
+    text-align: center;
+  }
+  .months a:hover { background: #111; color: #fff; }
+  .months a:hover .count { color: #ddd; }
+  .months .mname { font-weight: 700; font-size: 16px; }
+  .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .teams a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .teams a:hover { background: #111; color: #fff; }
+  .teams a:hover .tnick { color: #ddd; }
+  .teams .tabbr { font-weight: 700; font-size: 16px; }
+  .teams .tnick { font-size: 12px; color: #444; margin-top: 2px; }
+  .teampagesub {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: -8px 0 6px;
+    font-size: 15px;
+  }
+  .result-W { font-weight: 700; }
+  .seriestag { font-size: 12px; font-style: italic; color: #444; }
+  table.archive {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  table.archive th {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #111;
+    padding: 6px 8px 6px 0;
+  }
+  table.archive td {
+    border-bottom: 1px solid #999;
+    padding: 9px 8px 9px 0;
+    vertical-align: top;
+  }
+  table.archive a { color: #111; }
+  .teams { font-size: 13px; color: #444; }
+  .filterrow { margin: 0 0 14px; font-size: 15px; }
+  .filterrow select { font-family: inherit; font-size: 15px; padding: 4px 8px; }
+  .backlink { font-size: 14px; margin-bottom: 8px; }
+  .backlink a { color: #111; }
+  .footer {
+    margin-top: 44px;
+    border-top: 4px double #111;
+    padding-top: 12px;
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    text-align: center;
+  }
+  @media (max-width: 520px) {
+    .nameplate h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="dateline">The Daily Box Score &bull; Archive</div>
+  <div class="nameplate">
+    <h1><a href="../index.html">The Daily Box Score</a></h1>
+    <div class="tagline">Complete Major League box scores, in the classic agate style.</div>
+  </div>
+
+  <div class="backlink"><a href="../index.html">&larr; All months</a></div>
+  <h2 class="section">August 2004</h2>
+
+  <div class="filterrow">
+    <label for="teamFilter">Show games for:</label>
+    <select id="teamFilter">
+      <option value="">All teams</option>
+      <option value="ANA">ANA</option>
+      <option value="ATL">ATL</option>
+      <option value="AZ">AZ</option>
+      <option value="BAL">BAL</option>
+      <option value="BOS">BOS</option>
+      <option value="CHC">CHC</option>
+      <option value="CIN">CIN</option>
+      <option value="CLE">CLE</option>
+      <option value="COL">COL</option>
+      <option value="CWS">CWS</option>
+      <option value="DET">DET</option>
+      <option value="FLA">FLA</option>
+      <option value="HOU">HOU</option>
+      <option value="KC">KC</option>
+      <option value="LA">LA</option>
+      <option value="MIL">MIL</option>
+      <option value="MIN">MIN</option>
+      <option value="MON">MON</option>
+      <option value="NYM">NYM</option>
+      <option value="NYY">NYY</option>
+      <option value="OAK">OAK</option>
+      <option value="PHI">PHI</option>
+      <option value="PIT">PIT</option>
+      <option value="SD">SD</option>
+      <option value="SEA">SEA</option>
+      <option value="SF">SF</option>
+      <option value="STL">STL</option>
+      <option value="TB">TB</option>
+      <option value="TEX">TEX</option>
+      <option value="TOR">TOR</option>
+    </select>
+  </div>
+
+  <table class="archive" id="editions">
+    <tr><th>Date</th><th>Games</th><th>Teams</th><th>Edition</th></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Tuesday, August 31, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-31.pdf">PDF (63 KB)</a></td></tr>
+    <tr data-teams="ATL,CHC,CIN,CWS,DET,FLA,HOU,KC,MIL,MON,NYM,PHI,PIT,SF"><td>Monday, August 30, 2004</td><td>7</td><td class="teams">ATL CHC CIN CWS DET FLA HOU KC MIL MON NYM PHI PIT SF</td><td><a href="../pdfs/boxscores_2004-08-30.pdf">PDF (31 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Sunday, August 29, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-29.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Saturday, August 28, 2004</td><td>16</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-28.pdf">PDF (65 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Friday, August 27, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-27.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIN,MON,NYM,NYY,OAK,SD,SEA,SF,STL,TEX,TOR"><td>Thursday, August 26, 2004</td><td>12</td><td class="teams">ATL BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIN MON NYM NYY OAK SD SEA SF STL TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-26.pdf">PDF (49 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Wednesday, August 25, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-25.pdf">PDF (59 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Tuesday, August 24, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-24.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="ANA,AZ,BAL,BOS,CHC,CLE,CWS,DET,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,TB,TEX,TOR"><td>Monday, August 23, 2004</td><td>12</td><td class="teams">ANA AZ BAL BOS CHC CLE CWS DET HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-23.pdf">PDF (47 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Sunday, August 22, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-22.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Saturday, August 21, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-21.pdf">PDF (63 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Friday, August 20, 2004</td><td>16</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-20.pdf">PDF (63 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,CHC,COL,CWS,DET,HOU,LA,MIL,MIN,NYM,NYY,PHI,PIT,STL,TB"><td>Thursday, August 19, 2004</td><td>9</td><td class="teams">ANA ATL CHC COL CWS DET HOU LA MIL MIN NYM NYY PHI PIT STL TB</td><td><a href="../pdfs/boxscores_2004-08-19.pdf">PDF (41 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Wednesday, August 18, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE CWS DET FLA HOU KC LA MIL MIN MON NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-18.pdf">PDF (61 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Tuesday, August 17, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-17.pdf">PDF (61 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CIN,CLE,FLA,LA,MON,OAK,PIT,SD,SF,STL,TEX,TOR"><td>Monday, August 16, 2004</td><td>8</td><td class="teams">ATL AZ BAL BOS CIN CLE FLA LA MON OAK PIT SD SF STL TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-16.pdf">PDF (35 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Sunday, August 15, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-15.pdf">PDF (61 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Saturday, August 14, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-14.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Friday, August 13, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-13.pdf">PDF (63 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Thursday, August 12, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-12.pdf">PDF (60 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Wednesday, August 11, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-11.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Tuesday, August 10, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-10.pdf">PDF (60 KB)</a></td></tr>
+    <tr data-teams="ANA,BAL,BOS,CLE,COL,CWS,KC,MIN,NYY,OAK,PHI,TB,TEX,TOR"><td>Monday, August 9, 2004</td><td>7</td><td class="teams">ANA BAL BOS CLE COL CWS KC MIN NYY OAK PHI TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-09.pdf">PDF (30 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Sunday, August 8, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-08.pdf">PDF (63 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Saturday, August 7, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-07.pdf">PDF (61 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Friday, August 6, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-06.pdf">PDF (61 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Thursday, August 5, 2004</td><td>14</td><td class="teams">ANA ATL AZ CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-05.pdf">PDF (57 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Wednesday, August 4, 2004</td><td>15</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-04.pdf">PDF (63 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LA,MIL,MIN,MON,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Tuesday, August 3, 2004</td><td>16</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LA MIL MIN MON NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-03.pdf">PDF (64 KB)</a></td></tr>
+    <tr data-teams="BOS,CLE,TB,TOR"><td>Monday, August 2, 2004</td><td>2</td><td class="teams">BOS CLE TB TOR</td><td><a href="../pdfs/boxscores_2004-08-02.pdf">PDF (10 KB)</a></td></tr>
+    <tr data-teams="ANA,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,HOU,KC,LA,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR"><td>Sunday, August 1, 2004</td><td>14</td><td class="teams">ANA ATL AZ BAL BOS CHC CIN CLE COL CWS DET HOU KC LA MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR</td><td><a href="../pdfs/boxscores_2004-08-01.pdf">PDF (58 KB)</a></td></tr>
+  </table>
+
+  <div class="footer">
+    Compiled from the official MLB Stats API. Never invented; missing data stays blank.
+  </div>
+</div>
+<script>
+document.getElementById('teamFilter').addEventListener('change', function() {
+  var t = this.value;
+  document.querySelectorAll('#editions tr[data-teams]').forEach(function(tr) {
+    var teams = tr.getAttribute('data-teams').split(',');
+    tr.style.display = (!t || teams.indexOf(t) !== -1) ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>
