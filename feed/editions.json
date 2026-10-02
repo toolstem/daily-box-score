@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T19:04:47",
+ "updated": "2026-10-01T19:20:08",
  "editions": [
   {
    "date": "2026-09-30",
@@ -1496,6 +1496,14 @@
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-25.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-25.json",
    "size": 6612
+  },
+  {
+   "date": "2001-06-15",
+   "label": "Friday, June 15, 2001",
+   "games": 15,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2001-06-15.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2001-06-15.json",
+   "size": 65817
   }
  ]
 }
