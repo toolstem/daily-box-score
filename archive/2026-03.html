@@ -114,6 +114,32 @@
   .months a:hover .count { color: #ddd; }
   .months .mname { font-weight: 700; font-size: 16px; }
   .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .teams a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .teams a:hover { background: #111; color: #fff; }
+  .teams a:hover .tnick { color: #ddd; }
+  .teams .tabbr { font-weight: 700; font-size: 16px; }
+  .teams .tnick { font-size: 12px; color: #444; margin-top: 2px; }
+  .teampagesub {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: -8px 0 6px;
+    font-size: 15px;
+  }
+  .result-W { font-weight: 700; }
+  .seriestag { font-size: 12px; font-style: italic; color: #444; }
   table.archive {
     width: 100%;
     border-collapse: collapse;
@@ -208,6 +234,7 @@
     <tr data-teams="ATH,ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,HOU,KC,LAA,LAD,MIA,MIL,MIN,NYM,NYY,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Saturday, March 28, 2026</td><td>15</td><td class="teams">ATH ATL AZ BAL BOS CHC CIN CLE COL CWS DET HOU KC LAA LAD MIA MIL MIN NYM NYY PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2026-03-28.pdf">PDF (65 KB)</a></td></tr>
     <tr data-teams="ATH,ATL,AZ,CLE,COL,DET,HOU,KC,LAA,LAD,MIA,NYY,SD,SEA,SF,TOR"><td>Friday, March 27, 2026</td><td>8</td><td class="teams">ATH ATL AZ CLE COL DET HOU KC LAA LAD MIA NYY SD SEA SF TOR</td><td><a href="../pdfs/boxscores_2026-03-27.pdf">PDF (32 KB)</a></td></tr>
     <tr data-teams="AZ,BAL,BOS,CHC,CIN,CLE,CWS,DET,HOU,LAA,LAD,MIL,MIN,NYM,PHI,PIT,SD,SEA,STL,TB,TEX,WSH"><td>Thursday, March 26, 2026</td><td>11</td><td class="teams">AZ BAL BOS CHC CIN CLE CWS DET HOU LAA LAD MIL MIN NYM PHI PIT SD SEA STL TB TEX WSH</td><td><a href="../pdfs/boxscores_2026-03-26.pdf">PDF (46 KB)</a></td></tr>
+    <tr data-teams="NYY,SF"><td>Wednesday, March 25, 2026</td><td>1</td><td class="teams">NYY SF</td><td><a href="../pdfs/boxscores_2026-03-25.pdf">PDF (6 KB)</a></td></tr>
   </table>
 
   <div class="footer">

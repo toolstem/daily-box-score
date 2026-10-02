@@ -114,6 +114,32 @@
   .months a:hover .count { color: #ddd; }
   .months .mname { font-weight: 700; font-size: 16px; }
   .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .teams a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .teams a:hover { background: #111; color: #fff; }
+  .teams a:hover .tnick { color: #ddd; }
+  .teams .tabbr { font-weight: 700; font-size: 16px; }
+  .teams .tnick { font-size: 12px; color: #444; margin-top: 2px; }
+  .teampagesub {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: -8px 0 6px;
+    font-size: 15px;
+  }
+  .result-W { font-weight: 700; }
+  .seriestag { font-size: 12px; font-style: italic; color: #444; }
   table.archive {
     width: 100%;
     border-collapse: collapse;
@@ -183,7 +209,41 @@
     <a href="archive/2026-06.html"><span class="mname">June 2026</span><br><span class="count">30 editions</span></a>
     <a href="archive/2026-05.html"><span class="mname">May 2026</span><br><span class="count">31 editions</span></a>
     <a href="archive/2026-04.html"><span class="mname">April 2026</span><br><span class="count">30 editions</span></a>
-    <a href="archive/2026-03.html"><span class="mname">March 2026</span><br><span class="count">6 editions</span></a>
+    <a href="archive/2026-03.html"><span class="mname">March 2026</span><br><span class="count">7 editions</span></a>
+  </div>
+
+  <h2 class="section">Browse by Team</h2>
+  <div class="teams">
+    <a href="teams/az.html"><span class="tabbr">AZ</span><br><span class="tnick">D-backs</span></a>
+    <a href="teams/ath.html"><span class="tabbr">ATH</span><br><span class="tnick">Athletics</span></a>
+    <a href="teams/atl.html"><span class="tabbr">ATL</span><br><span class="tnick">Braves</span></a>
+    <a href="teams/bal.html"><span class="tabbr">BAL</span><br><span class="tnick">Orioles</span></a>
+    <a href="teams/bos.html"><span class="tabbr">BOS</span><br><span class="tnick">Red Sox</span></a>
+    <a href="teams/chc.html"><span class="tabbr">CHC</span><br><span class="tnick">Cubs</span></a>
+    <a href="teams/cws.html"><span class="tabbr">CWS</span><br><span class="tnick">White Sox</span></a>
+    <a href="teams/cin.html"><span class="tabbr">CIN</span><br><span class="tnick">Reds</span></a>
+    <a href="teams/cle.html"><span class="tabbr">CLE</span><br><span class="tnick">Guardians</span></a>
+    <a href="teams/col.html"><span class="tabbr">COL</span><br><span class="tnick">Rockies</span></a>
+    <a href="teams/det.html"><span class="tabbr">DET</span><br><span class="tnick">Tigers</span></a>
+    <a href="teams/hou.html"><span class="tabbr">HOU</span><br><span class="tnick">Astros</span></a>
+    <a href="teams/kc.html"><span class="tabbr">KC</span><br><span class="tnick">Royals</span></a>
+    <a href="teams/laa.html"><span class="tabbr">LAA</span><br><span class="tnick">Angels</span></a>
+    <a href="teams/lad.html"><span class="tabbr">LAD</span><br><span class="tnick">Dodgers</span></a>
+    <a href="teams/mia.html"><span class="tabbr">MIA</span><br><span class="tnick">Marlins</span></a>
+    <a href="teams/mil.html"><span class="tabbr">MIL</span><br><span class="tnick">Brewers</span></a>
+    <a href="teams/min.html"><span class="tabbr">MIN</span><br><span class="tnick">Twins</span></a>
+    <a href="teams/nym.html"><span class="tabbr">NYM</span><br><span class="tnick">Mets</span></a>
+    <a href="teams/nyy.html"><span class="tabbr">NYY</span><br><span class="tnick">Yankees</span></a>
+    <a href="teams/phi.html"><span class="tabbr">PHI</span><br><span class="tnick">Phillies</span></a>
+    <a href="teams/pit.html"><span class="tabbr">PIT</span><br><span class="tnick">Pirates</span></a>
+    <a href="teams/sd.html"><span class="tabbr">SD</span><br><span class="tnick">Padres</span></a>
+    <a href="teams/sf.html"><span class="tabbr">SF</span><br><span class="tnick">Giants</span></a>
+    <a href="teams/sea.html"><span class="tabbr">SEA</span><br><span class="tnick">Mariners</span></a>
+    <a href="teams/stl.html"><span class="tabbr">STL</span><br><span class="tnick">Cardinals</span></a>
+    <a href="teams/tb.html"><span class="tabbr">TB</span><br><span class="tnick">Rays</span></a>
+    <a href="teams/tex.html"><span class="tabbr">TEX</span><br><span class="tnick">Rangers</span></a>
+    <a href="teams/tor.html"><span class="tabbr">TOR</span><br><span class="tnick">Blue Jays</span></a>
+    <a href="teams/wsh.html"><span class="tabbr">WSH</span><br><span class="tnick">Nationals</span></a>
   </div>
 
   <div class="footer">

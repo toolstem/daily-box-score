@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T18:37:20",
+ "updated": "2026-10-01T18:59:56",
  "editions": [
   {
    "date": "2026-09-30",
@@ -820,10 +820,10 @@
   {
    "date": "2026-06-17",
    "label": "Wednesday, June 17, 2026",
-   "games": 15,
+   "games": 14,
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-06-17.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-06-17.json",
-   "size": 62816
+   "size": 58539
   },
   {
    "date": "2026-06-16",
@@ -1488,6 +1488,14 @@
    "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-26.pdf",
    "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-26.json",
    "size": 46685
+  },
+  {
+   "date": "2026-03-25",
+   "label": "Wednesday, March 25, 2026",
+   "games": 1,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-03-25.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-03-25.json",
+   "size": 6612
   }
  ]
 }
