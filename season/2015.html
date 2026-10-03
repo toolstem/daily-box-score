@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2015 Season &mdash; The Daily Box Score</title>
+<style>
+  body {
+    background: #fff;
+    color: #111;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+  .dateline {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #111;
+    padding-bottom: 8px;
+  }
+  .nameplate {
+    text-align: center;
+    border-bottom: 4px double #111;
+    padding: 18px 0 14px;
+    margin-bottom: 26px;
+  }
+  .nameplate h1 {
+    font-size: 44px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .nameplate h1 a { color: #111; text-decoration: none; }
+  .nameplate .tagline {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 6px;
+    color: #333;
+  }
+  h2.section {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 6px;
+    margin: 34px 0 14px;
+  }
+  .latest {
+    text-align: center;
+    border: 1px solid #111;
+    padding: 26px 18px;
+  }
+  .latest .ed-date {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .latest .ed-meta {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 18px;
+  }
+  .btn {
+    display: inline-block;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 28px;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    background: #111;
+    color: #fff;
+  }
+  table.scores {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  table.scores td {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 8px 7px 0;
+  }
+  table.scores td.score { font-weight: 700; white-space: nowrap; }
+  table.scores td.link { text-align: right; white-space: nowrap; }
+  table.scores a { color: #111; font-size: 13px; }
+  .months {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .months a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 14px 10px;
+    text-align: center;
+  }
+  .months a:hover { background: #111; color: #fff; }
+  .months a:hover .count { color: #ddd; }
+  .months .mname { font-weight: 700; font-size: 16px; }
+  .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .teams a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .teams a:hover { background: #111; color: #fff; }
+  .teams a:hover .tnick { color: #ddd; }
+  .teams .tabbr { font-weight: 700; font-size: 16px; }
+  .teams .tnick { font-size: 12px; color: #444; margin-top: 2px; }
+  .teampagesub {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: -8px 0 6px;
+    font-size: 15px;
+  }
+  .result-W { font-weight: 700; }
+  .seriestag { font-size: 12px; font-style: italic; color: #444; }
+  table.archive {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  table.archive th {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #111;
+    padding: 6px 8px 6px 0;
+  }
+  table.archive td {
+    border-bottom: 1px solid #999;
+    padding: 9px 8px 9px 0;
+    vertical-align: top;
+  }
+  table.archive a { color: #111; }
+  .teams { font-size: 13px; color: #444; }
+  .filterrow { margin: 0 0 14px; font-size: 15px; }
+  .filterrow select { font-family: inherit; font-size: 15px; padding: 4px 8px; }
+  .backlink { font-size: 14px; margin-bottom: 8px; }
+  .backlink a { color: #111; }
+  .footer {
+    margin-top: 44px;
+    border-top: 4px double #111;
+    padding-top: 12px;
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    text-align: center;
+  }
+  @media (max-width: 520px) {
+    .nameplate h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="dateline">The Daily Box Score &bull; Season Archive</div>
+  <div class="nameplate">
+    <h1><a href="../index.html">The Daily Box Score</a></h1>
+    <div class="tagline">Complete Major League box scores, in the classic agate style.</div>
+  </div>
+
+  <div class="backlink"><a href="../index.html">&larr; All seasons</a></div>
+  <h2 class="section">2015 Season</h2>
+  <p class="teampagesub">237 editions &bull; 2968 games</p>
+
+  <div class="months">
+    <a href="../archive/2015-11.html"><span class="mname">November 2015</span><br><span class="count">1 edition</span></a>
+    <a href="../archive/2015-10.html"><span class="mname">October 2015</span><br><span class="count">25 editions</span></a>
+    <a href="../archive/2015-09.html"><span class="mname">September 2015</span><br><span class="count">30 editions</span></a>
+    <a href="../archive/2015-08.html"><span class="mname">August 2015</span><br><span class="count">31 editions</span></a>
+    <a href="../archive/2015-07.html"><span class="mname">July 2015</span><br><span class="count">28 editions</span></a>
+    <a href="../archive/2015-06.html"><span class="mname">June 2015</span><br><span class="count">30 editions</span></a>
+    <a href="../archive/2015-05.html"><span class="mname">May 2015</span><br><span class="count">31 editions</span></a>
+    <a href="../archive/2015-04.html"><span class="mname">April 2015</span><br><span class="count">30 editions</span></a>
+    <a href="../archive/2015-03.html"><span class="mname">March 2015</span><br><span class="count">31 editions</span></a>
+  </div>
+
+  <div class="footer">
+    Compiled from the official MLB Stats API. Never invented; missing data stays blank.
+  </div>
+</div>
+</body>
+</html>

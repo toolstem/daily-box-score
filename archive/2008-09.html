@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>September 2008 &mdash; The Daily Box Score</title>
+<style>
+  body {
+    background: #fff;
+    color: #111;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+  .dateline {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #111;
+    padding-bottom: 8px;
+  }
+  .nameplate {
+    text-align: center;
+    border-bottom: 4px double #111;
+    padding: 18px 0 14px;
+    margin-bottom: 26px;
+  }
+  .nameplate h1 {
+    font-size: 44px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .nameplate h1 a { color: #111; text-decoration: none; }
+  .nameplate .tagline {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 6px;
+    color: #333;
+  }
+  h2.section {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 6px;
+    margin: 34px 0 14px;
+  }
+  .latest {
+    text-align: center;
+    border: 1px solid #111;
+    padding: 26px 18px;
+  }
+  .latest .ed-date {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .latest .ed-meta {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 18px;
+  }
+  .btn {
+    display: inline-block;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 28px;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    background: #111;
+    color: #fff;
+  }
+  table.scores {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  table.scores td {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 8px 7px 0;
+  }
+  table.scores td.score { font-weight: 700; white-space: nowrap; }
+  table.scores td.link { text-align: right; white-space: nowrap; }
+  table.scores a { color: #111; font-size: 13px; }
+  .months {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .months a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 14px 10px;
+    text-align: center;
+  }
+  .months a:hover { background: #111; color: #fff; }
+  .months a:hover .count { color: #ddd; }
+  .months .mname { font-weight: 700; font-size: 16px; }
+  .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .teams a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .teams a:hover { background: #111; color: #fff; }
+  .teams a:hover .tnick { color: #ddd; }
+  .teams .tabbr { font-weight: 700; font-size: 16px; }
+  .teams .tnick { font-size: 12px; color: #444; margin-top: 2px; }
+  .teampagesub {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: -8px 0 6px;
+    font-size: 15px;
+  }
+  .result-W { font-weight: 700; }
+  .seriestag { font-size: 12px; font-style: italic; color: #444; }
+  table.archive {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  table.archive th {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #111;
+    padding: 6px 8px 6px 0;
+  }
+  table.archive td {
+    border-bottom: 1px solid #999;
+    padding: 9px 8px 9px 0;
+    vertical-align: top;
+  }
+  table.archive a { color: #111; }
+  .teams { font-size: 13px; color: #444; }
+  .filterrow { margin: 0 0 14px; font-size: 15px; }
+  .filterrow select { font-family: inherit; font-size: 15px; padding: 4px 8px; }
+  .backlink { font-size: 14px; margin-bottom: 8px; }
+  .backlink a { color: #111; }
+  .footer {
+    margin-top: 44px;
+    border-top: 4px double #111;
+    padding-top: 12px;
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    text-align: center;
+  }
+  @media (max-width: 520px) {
+    .nameplate h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="dateline">The Daily Box Score &bull; Archive</div>
+  <div class="nameplate">
+    <h1><a href="../index.html">The Daily Box Score</a></h1>
+    <div class="tagline">Complete Major League box scores, in the classic agate style.</div>
+  </div>
+
+  <div class="backlink"><a href="../index.html">&larr; All months</a></div>
+  <h2 class="section">September 2008</h2>
+
+  <div class="filterrow">
+    <label for="teamFilter">Show games for:</label>
+    <select id="teamFilter">
+      <option value="">All teams</option>
+      <option value="ATL">ATL</option>
+      <option value="AZ">AZ</option>
+      <option value="BAL">BAL</option>
+      <option value="BOS">BOS</option>
+      <option value="CHC">CHC</option>
+      <option value="CIN">CIN</option>
+      <option value="CLE">CLE</option>
+      <option value="COL">COL</option>
+      <option value="CWS">CWS</option>
+      <option value="DET">DET</option>
+      <option value="FLA">FLA</option>
+      <option value="HOU">HOU</option>
+      <option value="KC">KC</option>
+      <option value="LAA">LAA</option>
+      <option value="LAD">LAD</option>
+      <option value="MIL">MIL</option>
+      <option value="MIN">MIN</option>
+      <option value="NYM">NYM</option>
+      <option value="NYY">NYY</option>
+      <option value="OAK">OAK</option>
+      <option value="PHI">PHI</option>
+      <option value="PIT">PIT</option>
+      <option value="SD">SD</option>
+      <option value="SEA">SEA</option>
+      <option value="SF">SF</option>
+      <option value="STL">STL</option>
+      <option value="TB">TB</option>
+      <option value="TEX">TEX</option>
+      <option value="TOR">TOR</option>
+      <option value="WSH">WSH</option>
+    </select>
+  </div>
+
+  <table class="archive" id="editions">
+    <tr><th>Date</th><th>Games</th><th>Teams</th><th>Edition</th></tr>
+    <tr data-teams="CWS,MIN"><td>Tuesday, September 30, 2008</td><td>1</td><td class="teams">CWS MIN</td><td><a href="../pdfs/boxscores_2008-09-30.pdf">PDF (7 KB)</a></td></tr>
+    <tr data-teams="CWS,DET"><td>Monday, September 29, 2008</td><td>1</td><td class="teams">CWS DET</td><td><a href="../pdfs/boxscores_2008-09-29.pdf">PDF (8 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Sunday, September 28, 2008</td><td>16</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-28.pdf">PDF (70 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Saturday, September 27, 2008</td><td>14</td><td class="teams">ATL AZ BAL CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-27.pdf">PDF (57 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Friday, September 26, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-26.pdf">PDF (66 KB)</a></td></tr>
+    <tr data-teams="AZ,BOS,CHC,CIN,CLE,COL,CWS,DET,HOU,LAA,LAD,MIL,MIN,NYM,NYY,PIT,SD,SEA,SF,STL,TB,TOR"><td>Thursday, September 25, 2008</td><td>11</td><td class="teams">AZ BOS CHC CIN CLE COL CWS DET HOU LAA LAD MIL MIN NYM NYY PIT SD SEA SF STL TB TOR</td><td><a href="../pdfs/boxscores_2008-09-25.pdf">PDF (48 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Wednesday, September 24, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-24.pdf">PDF (67 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Tuesday, September 23, 2008</td><td>16</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-23.pdf">PDF (67 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,DET,FLA,KC,LAA,NYM,OAK,PHI,SEA,STL,TB,TEX"><td>Monday, September 22, 2008</td><td>9</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE DET FLA KC LAA NYM OAK PHI SEA STL TB TEX</td><td><a href="../pdfs/boxscores_2008-09-22.pdf">PDF (40 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Sunday, September 21, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-21.pdf">PDF (65 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Saturday, September 20, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-20.pdf">PDF (65 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Friday, September 19, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-19.pdf">PDF (68 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,CHC,CIN,CWS,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SEA,SF,STL,TB,TOR,WSH"><td>Thursday, September 18, 2008</td><td>12</td><td class="teams">ATL AZ BAL CHC CIN CWS FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SEA SF STL TB TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-18.pdf">PDF (54 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Wednesday, September 17, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-17.pdf">PDF (66 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Tuesday, September 16, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-16.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="AZ,BOS,CHC,CLE,COL,CWS,DET,HOU,KC,LAD,MIN,NYM,NYY,PIT,SD,SEA,SF,TB,TEX,WSH"><td>Monday, September 15, 2008</td><td>10</td><td class="teams">AZ BOS CHC CLE COL CWS DET HOU KC LAD MIN NYM NYY PIT SD SEA SF TB TEX WSH</td><td><a href="../pdfs/boxscores_2008-09-15.pdf">PDF (44 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Sunday, September 14, 2008</td><td>17</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-14.pdf">PDF (71 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CIN,CLE,COL,FLA,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Saturday, September 13, 2008</td><td>18</td><td class="teams">ATL AZ BAL BOS CIN CLE COL FLA KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-13.pdf">PDF (77 KB)</a></td></tr>
+    <tr data-teams="AZ,BOS,CIN,CLE,COL,FLA,KC,LAA,LAD,OAK,PIT,SD,SEA,SF,STL,TEX,TOR,WSH"><td>Friday, September 12, 2008</td><td>9</td><td class="teams">AZ BOS CIN CLE COL FLA KC LAA LAD OAK PIT SD SEA SF STL TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-12.pdf">PDF (37 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,CHC,CLE,COL,CWS,HOU,KC,LAA,MIL,MIN,OAK,PHI,PIT,SD,SEA,SF,STL,TEX,TOR"><td>Thursday, September 11, 2008</td><td>10</td><td class="teams">ATL BAL CHC CLE COL CWS HOU KC LAA MIL MIN OAK PHI PIT SD SEA SF STL TEX TOR</td><td><a href="../pdfs/boxscores_2008-09-11.pdf">PDF (43 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Wednesday, September 10, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-10.pdf">PDF (66 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Tuesday, September 9, 2008</td><td>16</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-09.pdf">PDF (70 KB)</a></td></tr>
+    <tr data-teams="AZ,BAL,BOS,CIN,CLE,DET,FLA,HOU,LAA,LAD,MIL,NYY,OAK,PHI,PIT,SD,SF,TB"><td>Monday, September 8, 2008</td><td>9</td><td class="teams">AZ BAL BOS CIN CLE DET FLA HOU LAA LAD MIL NYY OAK PHI PIT SD SF TB</td><td><a href="../pdfs/boxscores_2008-09-08.pdf">PDF (40 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Sunday, September 7, 2008</td><td>15</td><td class="teams">ATL AZ BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-07.pdf">PDF (65 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYY,OAK,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Saturday, September 6, 2008</td><td>14</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYY OAK PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-06.pdf">PDF (61 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Friday, September 5, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-05.pdf">PDF (62 KB)</a></td></tr>
+    <tr data-teams="ATL,CIN,DET,KC,LAA,MIL,MIN,NYY,OAK,PIT,SD,TB,TOR,WSH"><td>Thursday, September 4, 2008</td><td>8</td><td class="teams">ATL CIN DET KC LAA MIL MIN NYY OAK PIT SD TB TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-04.pdf">PDF (34 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,LAA,LAD,MIL,MIN,NYM,NYY,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Wednesday, September 3, 2008</td><td>14</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU LAA LAD MIL MIN NYM NYY PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-03.pdf">PDF (60 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,FLA,HOU,KC,LAA,LAD,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Tuesday, September 2, 2008</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET FLA HOU KC LAA LAD MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2008-09-02.pdf">PDF (69 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CLE,COL,CWS,DET,FLA,HOU,LAD,MIL,NYM,NYY,PHI,SD,SEA,SF,STL,TEX,WSH"><td>Monday, September 1, 2008</td><td>11</td><td class="teams">ATL AZ BAL BOS CHC CLE COL CWS DET FLA HOU LAD MIL NYM NYY PHI SD SEA SF STL TEX WSH</td><td><a href="../pdfs/boxscores_2008-09-01.pdf">PDF (47 KB)</a></td></tr>
+  </table>
+
+  <div class="footer">
+    Compiled from the official MLB Stats API. Never invented; missing data stays blank.
+  </div>
+</div>
+<script>
+document.getElementById('teamFilter').addEventListener('change', function() {
+  var t = this.value;
+  document.querySelectorAll('#editions tr[data-teams]').forEach(function(tr) {
+    var teams = tr.getAttribute('data-teams').split(',');
+    tr.style.display = (!t || teams.indexOf(t) !== -1) ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>

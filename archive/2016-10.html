@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>October 2016 &mdash; The Daily Box Score</title>
+<style>
+  body {
+    background: #fff;
+    color: #111;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+  .dateline {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #111;
+    padding-bottom: 8px;
+  }
+  .nameplate {
+    text-align: center;
+    border-bottom: 4px double #111;
+    padding: 18px 0 14px;
+    margin-bottom: 26px;
+  }
+  .nameplate h1 {
+    font-size: 44px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .nameplate h1 a { color: #111; text-decoration: none; }
+  .nameplate .tagline {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 6px;
+    color: #333;
+  }
+  h2.section {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 6px;
+    margin: 34px 0 14px;
+  }
+  .latest {
+    text-align: center;
+    border: 1px solid #111;
+    padding: 26px 18px;
+  }
+  .latest .ed-date {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .latest .ed-meta {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 18px;
+  }
+  .btn {
+    display: inline-block;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 28px;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    background: #111;
+    color: #fff;
+  }
+  table.scores {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  table.scores td {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 8px 7px 0;
+  }
+  table.scores td.score { font-weight: 700; white-space: nowrap; }
+  table.scores td.link { text-align: right; white-space: nowrap; }
+  table.scores a { color: #111; font-size: 13px; }
+  .months {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .months a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 14px 10px;
+    text-align: center;
+  }
+  .months a:hover { background: #111; color: #fff; }
+  .months a:hover .count { color: #ddd; }
+  .months .mname { font-weight: 700; font-size: 16px; }
+  .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .teams a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .teams a:hover { background: #111; color: #fff; }
+  .teams a:hover .tnick { color: #ddd; }
+  .teams .tabbr { font-weight: 700; font-size: 16px; }
+  .teams .tnick { font-size: 12px; color: #444; margin-top: 2px; }
+  .teampagesub {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: -8px 0 6px;
+    font-size: 15px;
+  }
+  .result-W { font-weight: 700; }
+  .seriestag { font-size: 12px; font-style: italic; color: #444; }
+  table.archive {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  table.archive th {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #111;
+    padding: 6px 8px 6px 0;
+  }
+  table.archive td {
+    border-bottom: 1px solid #999;
+    padding: 9px 8px 9px 0;
+    vertical-align: top;
+  }
+  table.archive a { color: #111; }
+  .teams { font-size: 13px; color: #444; }
+  .filterrow { margin: 0 0 14px; font-size: 15px; }
+  .filterrow select { font-family: inherit; font-size: 15px; padding: 4px 8px; }
+  .backlink { font-size: 14px; margin-bottom: 8px; }
+  .backlink a { color: #111; }
+  .footer {
+    margin-top: 44px;
+    border-top: 4px double #111;
+    padding-top: 12px;
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    text-align: center;
+  }
+  @media (max-width: 520px) {
+    .nameplate h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="dateline">The Daily Box Score &bull; Archive</div>
+  <div class="nameplate">
+    <h1><a href="../index.html">The Daily Box Score</a></h1>
+    <div class="tagline">Complete Major League box scores, in the classic agate style.</div>
+  </div>
+
+  <div class="backlink"><a href="../index.html">&larr; All months</a></div>
+  <h2 class="section">October 2016</h2>
+
+  <div class="filterrow">
+    <label for="teamFilter">Show games for:</label>
+    <select id="teamFilter">
+      <option value="">All teams</option>
+      <option value="ATL">ATL</option>
+      <option value="AZ">AZ</option>
+      <option value="BAL">BAL</option>
+      <option value="BOS">BOS</option>
+      <option value="CHC">CHC</option>
+      <option value="CIN">CIN</option>
+      <option value="CLE">CLE</option>
+      <option value="COL">COL</option>
+      <option value="CWS">CWS</option>
+      <option value="DET">DET</option>
+      <option value="HOU">HOU</option>
+      <option value="KC">KC</option>
+      <option value="LAA">LAA</option>
+      <option value="LAD">LAD</option>
+      <option value="MIA">MIA</option>
+      <option value="MIL">MIL</option>
+      <option value="MIN">MIN</option>
+      <option value="NYM">NYM</option>
+      <option value="NYY">NYY</option>
+      <option value="OAK">OAK</option>
+      <option value="PHI">PHI</option>
+      <option value="PIT">PIT</option>
+      <option value="SD">SD</option>
+      <option value="SEA">SEA</option>
+      <option value="SF">SF</option>
+      <option value="STL">STL</option>
+      <option value="TB">TB</option>
+      <option value="TEX">TEX</option>
+      <option value="TOR">TOR</option>
+      <option value="WSH">WSH</option>
+    </select>
+  </div>
+
+  <table class="archive" id="editions">
+    <tr><th>Date</th><th>Games</th><th>Teams</th><th>Edition</th></tr>
+    <tr data-teams="CHC,CLE"><td>Sunday, October 30, 2016</td><td>1</td><td class="teams">CHC CLE</td><td><a href="../pdfs/boxscores_2016-10-30.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,CLE"><td>Saturday, October 29, 2016</td><td>1</td><td class="teams">CHC CLE</td><td><a href="../pdfs/boxscores_2016-10-29.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,CLE"><td>Friday, October 28, 2016</td><td>1</td><td class="teams">CHC CLE</td><td><a href="../pdfs/boxscores_2016-10-28.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,CLE"><td>Wednesday, October 26, 2016</td><td>1</td><td class="teams">CHC CLE</td><td><a href="../pdfs/boxscores_2016-10-26.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,CLE"><td>Tuesday, October 25, 2016</td><td>1</td><td class="teams">CHC CLE</td><td><a href="../pdfs/boxscores_2016-10-25.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,LAD"><td>Saturday, October 22, 2016</td><td>1</td><td class="teams">CHC LAD</td><td><a href="../pdfs/boxscores_2016-10-22.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,LAD"><td>Thursday, October 20, 2016</td><td>1</td><td class="teams">CHC LAD</td><td><a href="../pdfs/boxscores_2016-10-20.pdf">PDF (7 KB)</a></td></tr>
+    <tr data-teams="CHC,CLE,LAD,TOR"><td>Wednesday, October 19, 2016</td><td>2</td><td class="teams">CHC CLE LAD TOR</td><td><a href="../pdfs/boxscores_2016-10-19.pdf">PDF (10 KB)</a></td></tr>
+    <tr data-teams="CHC,CLE,LAD,TOR"><td>Tuesday, October 18, 2016</td><td>2</td><td class="teams">CHC CLE LAD TOR</td><td><a href="../pdfs/boxscores_2016-10-18.pdf">PDF (10 KB)</a></td></tr>
+    <tr data-teams="CLE,TOR"><td>Monday, October 17, 2016</td><td>1</td><td class="teams">CLE TOR</td><td><a href="../pdfs/boxscores_2016-10-17.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,LAD"><td>Sunday, October 16, 2016</td><td>1</td><td class="teams">CHC LAD</td><td><a href="../pdfs/boxscores_2016-10-16.pdf">PDF (6 KB)</a></td></tr>
+    <tr data-teams="CHC,CLE,LAD,TOR"><td>Saturday, October 15, 2016</td><td>2</td><td class="teams">CHC CLE LAD TOR</td><td><a href="../pdfs/boxscores_2016-10-15.pdf">PDF (10 KB)</a></td></tr>
+    <tr data-teams="CLE,TOR"><td>Friday, October 14, 2016</td><td>1</td><td class="teams">CLE TOR</td><td><a href="../pdfs/boxscores_2016-10-14.pdf">PDF (5 KB)</a></td></tr>
+    <tr data-teams="LAD,WSH"><td>Thursday, October 13, 2016</td><td>1</td><td class="teams">LAD WSH</td><td><a href="../pdfs/boxscores_2016-10-13.pdf">PDF (8 KB)</a></td></tr>
+    <tr data-teams="CHC,LAD,SF,WSH"><td>Tuesday, October 11, 2016</td><td>2</td><td class="teams">CHC LAD SF WSH</td><td><a href="../pdfs/boxscores_2016-10-11.pdf">PDF (12 KB)</a></td></tr>
+    <tr data-teams="BOS,CHC,CLE,LAD,SF,WSH"><td>Monday, October 10, 2016</td><td>3</td><td class="teams">BOS CHC CLE LAD SF WSH</td><td><a href="../pdfs/boxscores_2016-10-10.pdf">PDF (18 KB)</a></td></tr>
+    <tr data-teams="LAD,TEX,TOR,WSH"><td>Sunday, October 9, 2016</td><td>2</td><td class="teams">LAD TEX TOR WSH</td><td><a href="../pdfs/boxscores_2016-10-09.pdf">PDF (12 KB)</a></td></tr>
+    <tr data-teams="CHC,SF"><td>Saturday, October 8, 2016</td><td>1</td><td class="teams">CHC SF</td><td><a href="../pdfs/boxscores_2016-10-08.pdf">PDF (8 KB)</a></td></tr>
+    <tr data-teams="BOS,CHC,CLE,LAD,SF,TEX,TOR,WSH"><td>Friday, October 7, 2016</td><td>4</td><td class="teams">BOS CHC CLE LAD SF TEX TOR WSH</td><td><a href="../pdfs/boxscores_2016-10-07.pdf">PDF (19 KB)</a></td></tr>
+    <tr data-teams="BOS,CLE,TEX,TOR"><td>Thursday, October 6, 2016</td><td>2</td><td class="teams">BOS CLE TEX TOR</td><td><a href="../pdfs/boxscores_2016-10-06.pdf">PDF (11 KB)</a></td></tr>
+    <tr data-teams="NYM,SF"><td>Wednesday, October 5, 2016</td><td>1</td><td class="teams">NYM SF</td><td><a href="../pdfs/boxscores_2016-10-05.pdf">PDF (7 KB)</a></td></tr>
+    <tr data-teams="BAL,TOR"><td>Tuesday, October 4, 2016</td><td>1</td><td class="teams">BAL TOR</td><td><a href="../pdfs/boxscores_2016-10-04.pdf">PDF (8 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,HOU,KC,LAA,LAD,MIA,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Sunday, October 2, 2016</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET HOU KC LAA LAD MIA MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2016-10-02.pdf">PDF (66 KB)</a></td></tr>
+    <tr data-teams="ATL,AZ,BAL,BOS,CHC,CIN,CLE,COL,CWS,DET,HOU,KC,LAA,LAD,MIA,MIL,MIN,NYM,NYY,OAK,PHI,PIT,SD,SEA,SF,STL,TB,TEX,TOR,WSH"><td>Saturday, October 1, 2016</td><td>15</td><td class="teams">ATL AZ BAL BOS CHC CIN CLE COL CWS DET HOU KC LAA LAD MIA MIL MIN NYM NYY OAK PHI PIT SD SEA SF STL TB TEX TOR WSH</td><td><a href="../pdfs/boxscores_2016-10-01.pdf">PDF (65 KB)</a></td></tr>
+  </table>
+
+  <div class="footer">
+    Compiled from the official MLB Stats API. Never invented; missing data stays blank.
+  </div>
+</div>
+<script>
+document.getElementById('teamFilter').addEventListener('change', function() {
+  var t = this.value;
+  document.querySelectorAll('#editions tr[data-teams]').forEach(function(tr) {
+    var teams = tr.getAttribute('data-teams').split(',');
+    tr.style.display = (!t || teams.indexOf(t) !== -1) ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>
