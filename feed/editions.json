@@ -1,6 +1,14 @@
 {
- "updated": "2026-10-10T12:17:33",
+ "updated": "2026-10-11T12:17:28",
  "editions": [
+  {
+   "date": "2026-10-10",
+   "label": "Saturday, October 10, 2026",
+   "games": 1,
+   "pdf_url": "https://www.toolstem.com/daily-box-score/pdfs/boxscores_2026-10-10.pdf",
+   "games_url": "https://www.toolstem.com/daily-box-score/feed/games_2026-10-10.json",
+   "size": 5776
+  },
   {
    "date": "2026-10-08",
    "label": "Thursday, October 8, 2026",
