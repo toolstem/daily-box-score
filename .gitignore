@@ -1,0 +1,6 @@
+# Security fix list M2: keep stray files out of the published site.
+*.tmp
+*.bak
+*~
+__pycache__/
+.DS_Store
