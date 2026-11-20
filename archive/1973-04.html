@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>April 1973 &mdash; The Daily Box Score</title>
+<style>
+  body {
+    background: #fff;
+    color: #111;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+  .dateline {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #111;
+    padding-bottom: 8px;
+  }
+  .nameplate {
+    text-align: center;
+    border-bottom: 4px double #111;
+    padding: 18px 0 14px;
+    margin-bottom: 26px;
+  }
+  .nameplate h1 {
+    font-size: 44px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .nameplate h1 a { color: #111; text-decoration: none; }
+  .nameplate .tagline {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 6px;
+    color: #333;
+  }
+  h2.section {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 6px;
+    margin: 34px 0 14px;
+  }
+  .latest {
+    text-align: center;
+    border: 1px solid #111;
+    padding: 26px 18px;
+  }
+  .latest .ed-date {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .latest .ed-meta {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 18px;
+  }
+  .app-banner {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: #333;
+    margin: 18px 0 0;
+  }
+  .app-banner a { color: #111; }
+  .btn {
+    display: inline-block;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 28px;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    background: #111;
+    color: #fff;
+  }
+  table.scores {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  table.scores td {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 8px 7px 0;
+  }
+  table.scores td.score { font-weight: 700; white-space: nowrap; }
+  table.scores td.link { text-align: right; white-space: nowrap; }
+  table.scores a { color: #111; font-size: 13px; }
+  .months {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .months a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 14px 10px;
+    text-align: center;
+  }
+  .months a:hover { background: #111; color: #fff; }
+  .months a:hover .count { color: #ddd; }
+  .months .mname { font-weight: 700; font-size: 16px; }
+  .months .count { font-size: 13px; font-style: italic; color: #444; margin-top: 4px; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+  .teams a {
+    display: block;
+    border: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 6px;
+    text-align: center;
+  }
+  .teams a:hover { background: #111; color: #fff; }
+  .teams a:hover .tnick { color: #ddd; }
+  .teams .tabbr { font-weight: 700; font-size: 16px; }
+  .teams .tnick { font-size: 12px; color: #444; margin-top: 2px; }
+  .teampagesub {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin: -8px 0 6px;
+    font-size: 15px;
+  }
+  .result-W { font-weight: 700; }
+  .seriestag { font-size: 12px; font-style: italic; color: #444; }
+  table.archive {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  table.archive th {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #111;
+    padding: 6px 8px 6px 0;
+  }
+  table.archive td {
+    border-bottom: 1px solid #999;
+    padding: 9px 8px 9px 0;
+    vertical-align: top;
+  }
+  table.archive a { color: #111; }
+  .teams { font-size: 13px; color: #444; }
+  .filterrow { margin: 0 0 14px; font-size: 15px; }
+  .filterrow select { font-family: inherit; font-size: 15px; padding: 4px 8px; }
+  .backlink { font-size: 14px; margin-bottom: 8px; }
+  .backlink a { color: #111; }
+  .footer {
+    margin-top: 44px;
+    border-top: 4px double #111;
+    padding-top: 12px;
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    text-align: center;
+  }
+  @media (max-width: 520px) {
+    .nameplate h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="dateline">The Daily Box Score &bull; Archive</div>
+  <div class="nameplate">
+    <h1><a href="../index.html">The Daily Box Score</a></h1>
+    <div class="tagline">Complete Major League box scores, in the classic agate style.</div>
+  </div>
+
+  <div class="backlink"><a href="../index.html">&larr; All months</a></div>
+  <h2 class="section">April 1973</h2>
+
+  <div class="filterrow">
+    <label for="teamFilter">Show games for:</label>
+    <select id="teamFilter">
+      <option value="">All teams</option>
+      <option value="ATL">ATL</option>
+      <option value="BAL">BAL</option>
+      <option value="BOS">BOS</option>
+      <option value="CAL">CAL</option>
+      <option value="CHA">CHA</option>
+      <option value="CHN">CHN</option>
+      <option value="CIN">CIN</option>
+      <option value="CLE">CLE</option>
+      <option value="DET">DET</option>
+      <option value="HOU">HOU</option>
+      <option value="KCA">KCA</option>
+      <option value="LAN">LAN</option>
+      <option value="MIL">MIL</option>
+      <option value="MIN">MIN</option>
+      <option value="MON">MON</option>
+      <option value="NYA">NYA</option>
+      <option value="NYN">NYN</option>
+      <option value="OAK">OAK</option>
+      <option value="PHI">PHI</option>
+      <option value="PIT">PIT</option>
+      <option value="SDN">SDN</option>
+      <option value="SFN">SFN</option>
+      <option value="SLN">SLN</option>
+      <option value="TEX">TEX</option>
+    </select>
+  </div>
+
+  <table class="archive" id="editions">
+    <tr><th>Date</th><th>Games</th><th>Teams</th><th>Edition</th></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Sunday, April 29, 1973</td><td>14</td><td class="teams">ATL BAL BOS CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-29/boxscores_1973-04-29.pdf">PDF (43 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Saturday, April 28, 1973</td><td>12</td><td class="teams">ATL BAL BOS CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-28/boxscores_1973-04-28.pdf">PDF (35 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,CAL,CHN,CIN,CLE,DET,HOU,KCA,MIL,MON,NYN,OAK,PHI,SDN,SFN,SLN,TEX"><td>Friday, April 27, 1973</td><td>9</td><td class="teams">ATL BAL CAL CHN CIN CLE DET HOU KCA MIL MON NYN OAK PHI SDN SFN SLN TEX</td><td><a href="1973-04-27/boxscores_1973-04-27.pdf">PDF (29 KB)</a></td></tr>
+    <tr data-teams="CHN,CLE,DET,HOU,KCA,MIL,NYN,OAK,SFN,TEX"><td>Thursday, April 26, 1973</td><td>5</td><td class="teams">CHN CLE DET HOU KCA MIL NYN OAK SFN TEX</td><td><a href="1973-04-26/boxscores_1973-04-26.pdf">PDF (17 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,SFN,SLN,TEX"><td>Wednesday, April 25, 1973</td><td>11</td><td class="teams">ATL BAL BOS CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI SFN SLN TEX</td><td><a href="1973-04-25/boxscores_1973-04-25.pdf">PDF (33 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Tuesday, April 24, 1973</td><td>12</td><td class="teams">ATL BAL BOS CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-24/boxscores_1973-04-24.pdf">PDF (37 KB)</a></td></tr>
+    <tr data-teams="CAL,HOU,MIL,NYA,OAK,SDN"><td>Monday, April 23, 1973</td><td>3</td><td class="teams">CAL HOU MIL NYA OAK SDN</td><td><a href="1973-04-23/boxscores_1973-04-23.pdf">PDF (12 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Sunday, April 22, 1973</td><td>17</td><td class="teams">ATL BAL BOS CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-22/boxscores_1973-04-22.pdf">PDF (52 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHN,CIN,CLE,DET,HOU,LAN,MIN,MON,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Saturday, April 21, 1973</td><td>10</td><td class="teams">ATL BAL BOS CAL CHN CIN CLE DET HOU LAN MIN MON NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-21/boxscores_1973-04-21.pdf">PDF (32 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,NYA,OAK,SDN,SFN,TEX"><td>Friday, April 20, 1973</td><td>9</td><td class="teams">ATL BAL BOS CAL CHA CIN CLE DET HOU KCA LAN MIL MIN NYA OAK SDN SFN TEX</td><td><a href="1973-04-20/boxscores_1973-04-20.pdf">PDF (28 KB)</a></td></tr>
+    <tr data-teams="BAL,BOS,CHN,CLE,DET,KCA,LAN,MIL,MON,NYA,NYN,OAK,PHI,SFN"><td>Thursday, April 19, 1973</td><td>8</td><td class="teams">BAL BOS CHN CLE DET KCA LAN MIL MON NYA NYN OAK PHI SFN</td><td><a href="1973-04-19/boxscores_1973-04-19.pdf">PDF (27 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Wednesday, April 18, 1973</td><td>12</td><td class="teams">ATL BAL BOS CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-18/boxscores_1973-04-18.pdf">PDF (36 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Tuesday, April 17, 1973</td><td>13</td><td class="teams">ATL BAL BOS CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-17/boxscores_1973-04-17.pdf">PDF (41 KB)</a></td></tr>
+    <tr data-teams="BOS,CIN,DET,HOU,LAN,SDN"><td>Monday, April 16, 1973</td><td>3</td><td class="teams">BOS CIN DET HOU LAN SDN</td><td><a href="1973-04-16/boxscores_1973-04-16.pdf">PDF (14 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MON,NYA,NYN,PHI,PIT,SDN,SFN,SLN"><td>Sunday, April 15, 1973</td><td>13</td><td class="teams">ATL BAL BOS CHA CHN CIN CLE DET HOU KCA LAN MIL MON NYA NYN PHI PIT SDN SFN SLN</td><td><a href="1973-04-15/boxscores_1973-04-15.pdf">PDF (42 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN"><td>Saturday, April 14, 1973</td><td>11</td><td class="teams">ATL BAL BOS CHA CHN CIN CLE DET HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SFN SLN</td><td><a href="1973-04-14/boxscores_1973-04-14.pdf">PDF (31 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,CAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIL,MIN,NYN,OAK,PHI,SDN,SFN,SLN,TEX"><td>Friday, April 13, 1973</td><td>10</td><td class="teams">ATL BAL CAL CHA CHN CIN CLE DET HOU KCA LAN MIL MIN NYN OAK PHI SDN SFN SLN TEX</td><td><a href="1973-04-13/boxscores_1973-04-13.pdf">PDF (31 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,CHA,CHN,CIN,CLE,DET,HOU,KCA,LAN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SFN,SLN,TEX"><td>Thursday, April 12, 1973</td><td>10</td><td class="teams">ATL BAL CHA CHN CIN CLE DET HOU KCA LAN MON NYA NYN OAK PHI PIT SDN SFN SLN TEX</td><td><a href="1973-04-12/boxscores_1973-04-12.pdf">PDF (30 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,CAL,CHA,CIN,CLE,DET,HOU,KCA,LAN,MIN,NYA,NYN,OAK,SDN,SFN,SLN,TEX"><td>Wednesday, April 11, 1973</td><td>9</td><td class="teams">ATL BAL CAL CHA CIN CLE DET HOU KCA LAN MIN NYA NYN OAK SDN SFN SLN TEX</td><td><a href="1973-04-11/boxscores_1973-04-11.pdf">PDF (28 KB)</a></td></tr>
+    <tr data-teams="CAL,HOU,KCA,LAN,MIN,MON,PHI,SDN,SFN,TEX"><td>Tuesday, April 10, 1973</td><td>5</td><td class="teams">CAL HOU KCA LAN MIN MON PHI SDN SFN TEX</td><td><a href="1973-04-10/boxscores_1973-04-10.pdf">PDF (19 KB)</a></td></tr>
+    <tr data-teams="ATL,CIN,CLE,HOU,LAN,NYA,SDN,SFN"><td>Monday, April 9, 1973</td><td>4</td><td class="teams">ATL CIN CLE HOU LAN NYA SDN SFN</td><td><a href="1973-04-09/boxscores_1973-04-09.pdf">PDF (15 KB)</a></td></tr>
+    <tr data-teams="ATL,BOS,CAL,CHN,CIN,CLE,DET,HOU,KCA,LAN,MIN,MON,NYA,OAK,PIT,SDN,SFN,SLN"><td>Sunday, April 8, 1973</td><td>11</td><td class="teams">ATL BOS CAL CHN CIN CLE DET HOU KCA LAN MIN MON NYA OAK PIT SDN SFN SLN</td><td><a href="1973-04-08/boxscores_1973-04-08.pdf">PDF (34 KB)</a></td></tr>
+    <tr data-teams="BAL,BOS,CAL,CHA,CHN,CIN,CLE,DET,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,SDN,SFN,TEX"><td>Saturday, April 7, 1973</td><td>10</td><td class="teams">BAL BOS CAL CHA CHN CIN CLE DET KCA LAN MIL MIN MON NYA NYN OAK PHI SDN SFN TEX</td><td><a href="1973-04-07/boxscores_1973-04-07.pdf">PDF (32 KB)</a></td></tr>
+    <tr data-teams="ATL,BAL,BOS,CAL,CHN,HOU,KCA,LAN,MIL,MIN,MON,NYA,NYN,OAK,PHI,PIT,SDN,SLN"><td>Friday, April 6, 1973</td><td>9</td><td class="teams">ATL BAL BOS CAL CHN HOU KCA LAN MIL MIN MON NYA NYN OAK PHI PIT SDN SLN</td><td><a href="1973-04-06/boxscores_1973-04-06.pdf">PDF (29 KB)</a></td></tr>
+    <tr data-teams="CIN,SFN"><td>Thursday, April 5, 1973</td><td>1</td><td class="teams">CIN SFN</td><td><a href="1973-04-05/boxscores_1973-04-05.pdf">PDF (6 KB)</a></td></tr>
+  </table>
+
+  <div class="footer">
+    Compiled from Retrosheet event files. Never invented; missing data stays blank.
+  </div>
+</div>
+<script>
+document.getElementById('teamFilter').addEventListener('change', function() {
+  var t = this.value;
+  document.querySelectorAll('#editions tr[data-teams]').forEach(function(tr) {
+    var teams = tr.getAttribute('data-teams').split(',');
+    tr.style.display = (!t || teams.indexOf(t) !== -1) ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>
